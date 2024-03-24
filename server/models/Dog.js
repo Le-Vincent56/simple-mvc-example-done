@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 
 let DogModel = {};
 
+// Create dog schema
 const DogSchema = new mongoose.Schema({
   name: {
     type: String,
